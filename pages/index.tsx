@@ -5,7 +5,7 @@ import { getDatabase, Todo } from "../utils/database.ts";
 export default function TodoListPage() {
   return (
     <div>
-      <h1>Your TODOs</h1>
+      <h1>My TODOs</h1>
       <AddTodoForm />
       <Suspense fallback={<p>Loading...</p>}>
         <TodoList />
